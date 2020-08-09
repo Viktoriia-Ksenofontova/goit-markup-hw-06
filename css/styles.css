@@ -832,9 +832,11 @@ footer .logo {
 }
 
 .accent-agreement {
-  color: var(--accent-color);
-  text-decoration: underline;
+  display: inline-block;
+  line-height: 0.85;
+  border-bottom: 1px solid var(--accent-color);
   cursor: pointer;
+  color: var(--accent-color);
 }
 
 .agreement-checkbox {
